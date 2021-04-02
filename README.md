@@ -117,9 +117,10 @@ G1 X{{ pause_position.x }} Y{{ pause_position.y }} Z{{ pause_position.z }} F4500
 </pre>
 
 ## Downloads
-* [KP3S Manual](https://www.kingroon.com/?do_action=action.download&DId=6)
-* [Latest Official Firmware](https://www.kingroon.com/?do_action=action.download&DId=3). To install, put contents (Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents).
-* [Latest Official Firmware (w/ 3D Touch/BL Touch feature)](https://www.kingroon.com/?do_action=action.download&DId=2). To install, put contents (Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents).
+* [KP3S Manual](https://www.kingroon.com/?do_action=action.download&DId=6) - Archive
+* [Latest Official
+Firmware](https://www.kingroon.com/?do_action=action.download&DId=3). To install, put contents (Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents). - Archive
+* [Latest Official Firmware (w/ 3D Touch/BL Touch feature)](https://www.kingroon.com/?do_action=action.download&DId=2). To install, put contents (Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents). - Archive
 
 
 ## Upgrades
