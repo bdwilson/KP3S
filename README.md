@@ -117,16 +117,14 @@ G1 X{{ pause_position.x }} Y{{ pause_position.y }} Z{{ pause_position.z }} F4500
 </pre>
 
 ## Downloads
+* [KP3S Manual](https://www.kingroon.com/?do_action=action.download&DId=6)
+* [Latest Official Firmware](https://www.kingroon.com/?do_action=action.download&DId=3). To install, put contents (Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents).
+* [Latest Official Firmware (w/ 3D Touch/BL Touch feature)](https://www.kingroon.com/?do_action=action.download&DId=2). To install, put contents (Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents).
 
-* [Latest Kingroon Official Firmware](https://www.kingroon.com/downloads/). To install, put contents (Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents).
 
 ## Upgrades
-* Power supply temperature-based fan. 
-** [KSD9700 Normally Open Thermostat](https://www.amazon.com/gp/product/B07PGZL1LF). 
-** <a href="https://bdwilson.github.io/images/kp3s-powersupply-mod2.png"><img src="https://bdwilson.github.io/images/kp3s-powersupply-mod2.png" width=400px></a>
-** <a href="https://bdwilson.github.io/images/kp3s-powersupply-mod1.png"><img src="https://bdwilson.github.io/images/kp3s-powersupply-mod1.png" width=400px></a>
+* [Temperature-based fan controller for KP3S power supply](Powersupply.md)
 
 
 ## Parts
-
 * [Kingroon Flexible/magnetic build plate.](https://www.amazon.com/Kingroon-Magnetic-Sticker-Surface-180x180mm/dp/B08KXN8ZGD)
