@@ -1,7 +1,7 @@
 # KP3S 3d Printer Notes
 
 Below are my notes, upgrades, info on the [Kingroon KP3S 3d
-Printer](https://www.amazon.com/Aluminum-Function-Assemble-Printing-180x180x180mm/dp/B08F51DPRX).
+Printer](https://www.amazon.com/gp/product/B08F51DPRX/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B08F51DPRX&linkCode=as2&tag=orgbubba-20&linkId=775b118605389899af8b4b9708d69a68)
 This device is very similar to the Prusa Mini. 
 
 # Cura Configuration
@@ -130,4 +130,5 @@ it's contents) and mks_font (directory & it's contents). - [Local Archive - 12/1
 
 
 ## Parts
-* [Kingroon Flexible/magnetic build plate.](https://www.amazon.com/Kingroon-Magnetic-Sticker-Surface-180x180mm/dp/B08KXN8ZGD)
+* [Kingroon Flexible/magnetic build
+plate.](https://www.amazon.com/gp/product/B08KXN8ZGD/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B08KXN8ZGD&linkCode=as2&tag=orgbubba-20&linkId=06e9ed49fc5541940522d04fa697c856)
