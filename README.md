@@ -6,6 +6,8 @@ This device is very similar to the Prusa Mini.
 
 # Cura Configuration
 
+Select Ender 3 as your device and make these changes 
+
 <img src="https://bdwilson.github.io/images/kp3s-cura-printersettings.png" width=400px>
 <img src="https://bdwilson.github.io/images/kp3s-cura-extrudersettings.png" width=400px>
 
