@@ -18,9 +18,11 @@ It's very the Prusa Mini, but you can get this in 2 days vs. 2 months.
 * [KP3S Manual](https://www.kingroon.com/?do_action=action.download&DId=6) - [Local Archive - 12/28/2020](https://github.com/bdwilson/KP3S/blob/main/files/KP3S%20User%20Manual%202020.12.28.pdf)
 * [Latest Official
 Firmware](https://www.kingroon.com/?do_action=action.download&DId=3). To
-install, put contents (Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory &
+install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory &
 it's contents) and mks_font (directory & it's contents). - [Local Archive - 12/12/2020](https://github.com/bdwilson/KP3S/blob/main/files/KP3S-Firmware-201022.zip?raw=true)
-* [Latest Official Firmware (w/ 3D Touch/BL Touch feature)](https://www.kingroon.com/?do_action=action.download&DId=2). To install, put contents (Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents). - [Local Archive - 12/12/2020](https://github.com/bdwilson/KP3S/blob/main/files/KP3S-Firmware-3Dtouch.zip?raw=true)
+* [Latest Official Firmware (w/ 3D Touch/BL Touch
+feature)](https://www.kingroon.com/?do_action=action.download&DId=2). To
+install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents). - [Local Archive - 12/12/2020](https://github.com/bdwilson/KP3S/blob/main/files/KP3S-Firmware-3Dtouch.zip?raw=true)
 
 ## Printable Parts
 * [X-Carriage Cable Support](https://www.thingiverse.com/thing:4679515), [Z-Carriage Cable Support](https://www.thingiverse.com/thing:4689252)
