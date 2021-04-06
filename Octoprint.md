@@ -35,6 +35,8 @@ M82
 G90
 ; move to a safe rest position, adjust as necessary
 G1 X0 Y0
+; try locking motors for a filament swap
+; M17 XY M84
 {% endif %}
 </pre>
 
