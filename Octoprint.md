@@ -12,8 +12,8 @@ G91 ; set to Relative position
 G1 E-1 F300 ; retract filament a bit before lifting nozzle
 G0 Z15 ; move z axis up 15mm
 G90 ; set to Absolute position
-G1 Y190 F5000 ; move part out for inspection
-G1 X190 F5000 ; move nozzle out of the way
+G1 Y150 F5000 ; move part out for inspection
+G1 X150 F5000 ; move nozzle out of the way
 M84 ; disable motors
 ;disable all heaters
 {% snippet 'disable_hotends' %}
