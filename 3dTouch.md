@@ -61,7 +61,12 @@ or
 [right](https://github.com/bdwilson/KP3S/blob/main/files/robin_nano_cfg-right.txt?raw=true).
 ___Rename the files to remove "-left" or "-right" so you're left with
 robin_nano_cfg.txt___. Put this in the root of your SD card too. 
-5. Put the SD card into yourd evice. When you reboot your device, you should see it flashing the new firmware and
+5. Edit robin_nano_cfg.txt and adjust <code>Z_PROBE_OFFSET_FROM_EXTRUDER</code>
+to be the distance between your extruder tip and tip of the 3d Touch device.
+The higher you start this out (i.e. less negative), the safer it is as to not
+damage your bed. You can continue to adjust this and re-copy the config file
+only to the SD card to update the configuration.
+6. Put the SD card into yourd evice. When you reboot your device, you should see it flashing the new firmware and
 applying the settings. Once it does this, it renames both files to .CUR on your
 SD card.  If you want to change just the settings, you can copy the .CUR
 configuration file to robin_nano_cfg.txt and then reboot the device and it will
