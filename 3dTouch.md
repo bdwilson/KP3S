@@ -13,7 +13,12 @@ feature)](https://www.kingroon.com/?do_action=action.download&DId=2) -  [Local A
 or the [Right
 mount](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-right.stl?raw=true)
 (From the Kingroon firmware zip)
-* [M3 Button Head screws](https://www.amazon.com/gp/product/B07CYNKLT2/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07CYNKLT2&linkCode=as2&tag=orgbubba-20&linkId=3762d1a6d467669c478e4468c2808d53) - I used hex head but the clearance to the extruder mount is really tight.  Button cap would be best, but hex head will work. 
+* [M3 Button Head screws - for right
+mount](https://www.amazon.com/gp/product/B07CYNKLT2/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07CYNKLT2&linkCode=as2&tag=orgbubba-20&linkId=3762d1a6d467669c478e4468c2808d53)
+- I used hex head but the clearance to the extruder mount is really tight.
+Button cap would be best, but hex head will work. If you select the left mount
+you'll need screws and bolts to mount the mount to the side of the extruder
+carriage (you'll need to cut the zip ties there to do this).
 
 # Warnings
 Incorrectly configuring this may damage your heat bed sheet - if you have an
