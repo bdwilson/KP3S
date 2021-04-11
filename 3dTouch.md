@@ -66,7 +66,7 @@ to be the distance between your extruder tip and tip of the 3d Touch device.
 The higher you start this out (i.e. less negative), the safer it is as to not
 damage your bed. You can continue to adjust this and re-copy the config file
 only to the SD card to update the configuration.
-6. Put the SD card into yourd evice. When you reboot your device, you should see it flashing the new firmware and
+6. Put the SD card into yourd device. When you reboot your device, you should see it flashing the new firmware and
 applying the settings. Once it does this, it renames both files to .CUR on your
 SD card.  If you want to change just the settings, you can copy the .CUR
 configuration file to robin_nano_cfg.txt and then reboot the device and it will
@@ -85,13 +85,13 @@ adjust the Z offset vs. adjusting it in the configuration file and
 re-uploading.You can use these commands in the terminal to see/change your
 z-offsets
 
-* M851
+* <code>M851</code>
   * Shows current z-offset
-* M851 Z-1.2 ; set the offset to zero
+* <code>M851 Z-1.2</code> ; set the offset to -1.2
   * Sets the Z offset to -1.2. 
-* M500
+* <code>M500</code>
   * Store current settings to EEPROM
-* M501 
+* <code>M501</code>
   * Restore settings from EEPROM 
 
 [\<\< Back to Main KP3S site](README.md)
