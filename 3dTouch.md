@@ -25,7 +25,7 @@ carriage (you'll need to cut the zip ties there to do this).
 # Warnings
 Incorrectly configuring this may damage your heat bed sheet - if you have an
 older magnetic sheet, it's best to try to get things dialed in using it before
-using a "newer" bed. If you damaage it, you can always try to fill the bigger
+using a "newer" bed. If you damage it, you can always try to fill the bigger
 holes with some rectorseal. 
 
 # Installation
