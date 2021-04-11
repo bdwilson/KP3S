@@ -1,0 +1,286 @@
+#===================高级功能设置=======================================
+>cfg_insert_det_module			0			#接入断电检测模块(1:mks 220det;0:mks pwc)
+
+>cfg_have_ups_device			0			#机器是否配备UPS电源(1:是;0:否)
+
+>cfg_print_over_auto_close		1			#打完关机配置(1:开启；0:关闭)。需搭配“打完关机模块”使用
+
+>cfg_filament_det0_trigger_level	0			#E0断料检测接口的触发电平配置(1:高电平触发;0:低电平触发)
+>cfg_filament_det1_trigger_level	0			#E1断料检测接口的触发电平配置(1:高电平触发;0:低电平触发)
+
+>cfg_filament_load_length		100			#"换料"进料的长度
+>cfg_filament_load_speed		800			#"换料"进料速度配置(mm/min)
+>cfg_filament_load_limit_temperature	200			#"换料"进料最低限制温度配置
+
+>cfg_filament_unload_length		100			#"换料"退料的长度
+>cfg_filament_unload_speed		800			#"换料"退料速度配置(mm/min)
+>cfg_filament_unload_limit_temperature	200			#"换料"退料最低限制温度配置
+
+#=========================== 调平按钮配置  =============================
+
+>cfg_leveling_mode			1			#调平模式配置《1:自动调平；0:手动调平》
+
+#=========================== 手动调平 ==================================
+
+>cfg_point_number			5			#手动调平的个数:(可设3,4,5个点)
+
+>cfg_point1:20,20						
+>cfg_point2:160,20
+>cfg_point3:160,160						#手动调平时的5个点的位置坐标
+>cfg_point4:20,160
+>cfg_point5:90,90
+
+#========================== 自动调平 ===================================
+
+>cfg_auto_leveling_cmd:G28;G29;
+
+#===================语言设置==========================================
+>cfg_language_adjust_type		1	#语言切换方式配置(1:屏幕按钮切换语言,0:配置文件选项切换语言).
+
+>cfg_language_type			2	#语言(1:简体中文;2:德语;3:英文;4:俄语;5:日语,6:法语,7:意大利语，8：西班牙语)，
+						#此配置只有在cfg_multiple_language设置为0时有效.
+#==================自定义功能按钮定制=================================
+#设置界面自定义功能1
+>setmenu_func1_display		1		#1:显示按钮，0:不显示按钮
+
+#每条指令必须用分号";"隔开
+>setmenu_func1:M84;
+
+>moreitem_pic_cnt		0		#"更多"按钮数量
+
+#按钮1~按钮7定制指令
+#每条指令必须用分号";"隔开
+#每个按钮设置指令最大必须小于200字节
+>moreitem_button1_cmd:G28 X0;G28 Y0;G28 Z0;
+
+>moreitem_button2_cmd:G28 X0;G28 Y0;G28 Z0;
+
+>moreitem_button3_cmd:G28 X0;G28 Y0;G28 Z0;
+
+>moreitem_button4_cmd:G28 X0;G28 Y0;G28 Z0;
+
+>moreitem_button5_cmd:G28 X0;G28 Y0;G28 Z0;
+
+>moreitem_button6_cmd:G28 X0;G28 Y0;G28 Z0;
+
+>moreitem_button7_cmd:G28 X0;G28 Y0;G28 Z0;
+
+#打印界面"更多"按钮数量
+>morefunc_cnt			0
+
+#按钮1~按钮6功能配置
+>morefunc1_cmd:G28;
+>morefunc2_cmd:G28;
+>morefunc3_cmd:G28;
+>morefunc4_cmd:G28;
+>morefunc5_cmd:G28;
+
+#-------------------------------------------------------------
+########  显示效果定制（按键与LOGO定制请看说明书） ##########
+
+>cfg_background_color		0x000000	#屏幕背景色
+>cfg_title_color		0xFFFFFF	#标题文字
+>cfg_state_bkcolor		0x000000	#状态栏背景色
+>cfg_state_textcolor		0xFFFFFF	#状态栏字体颜色
+>cfg_filename_bkcolor		0x494949	#文件目录按钮背景色
+>cfg_filename_textcolor		0xFFFFFF	#文件目录按钮字体颜色
+>cfg_btn_bkcolor		0x494949	#通用按钮背景色
+>cfg_btn_textcolor		0xFFFFFF	#通用按钮文字颜色
+>cfg_state_btn_bkcolor		0x494949	#状态按钮背景色
+>cfg_state_btn_textcolor	0xFFFFFF	#状态按钮字体颜色
+>cfg_back_btn_bkcolor		0x494949	#"返回"键背景色
+>cfg_back_btn_textcolor		0xFFFFFF	#"返回"键字体颜色
+>cfg_sel_btn_bkcolor		0x494949	#选定按钮背景色
+>cfg_sel_btn_textcolor		0xFFFFFF	#选定按钮字体颜色
+>cfg_dialog_btn_bkcolor		0xff0000	#对话框按钮背景色
+>cfg_dialog_btn_textcolor	0xFFFFFF	#对话框按钮字体颜色
+
+>cfg_btn_text_offset		5		#按钮字体偏移底边位置(单位:像素)
+
+>cfg_screen_display_mode	0		#屏幕首页显示模式(0:经典模式，1:简约模式)
+
+#============================= 基本设置 =========================
+
+>MACHINETPYE  0		#机型设置,0:Cartesian; 1:DELTA ; 2:COREXY
+
+>HAS_TEMP_BED 1	        #开启热床(1:开启,0:禁止)
+
+>EXTRUDERS    1		#配置挤出头数量
+
+>Z2_STEPPER_DRIVERS	0	#使能双Z功能,1:开启;0:禁止
+
+
+# XYZ轴的行程 (单位:mm)
+>X_MIN_POS 0
+>Y_MIN_POS 0
+>Z_MIN_POS 0
+>X_MAX_POS 180
+>Y_MAX_POS 180
+>Z_MAX_POS 180
+
+# 暂停后挤出头停止位置
+>FILAMENT_CHANGE_X_POS 5	 # X位置(绝对坐标值)
+>FILAMENT_CHANGE_Y_POS 5	 # Y位置(绝对坐标值)
+>FILAMENT_CHANGE_Z_ADD 5	 # Z位置(相对坐标值)
+
+#使用双头时，第二个挤出头与第一个挤出的XY偏移值. 
+>HOTEND_OFFSET_X 	20.00 		#x轴偏移(单位:mm) 
+>HOTEND_OFFSET_Y 	5.00  		#y轴偏移(单位:mm) 
+#============================== 步进电机设置 ============================
+#电机方向配置.
+>INVERT_X_DIR 	                0	
+>INVERT_Y_DIR 	                0
+>INVERT_Z_DIR                	1
+>INVERT_E0_DIR           	1
+>INVERT_E1_DIR           	0
+
+#移动参数设置
+>DEFAULT_X_STEPS_PER_UNIT	160	#X轴默认脉冲 (steps/mm)	
+>DEFAULT_Y_STEPS_PER_UNIT	160	#Y轴默认脉冲 (steps/mm)	
+>DEFAULT_Z_STEPS_PER_UNIT	800	#Z轴默认脉冲 (steps/mm)	
+>DEFAULT_E0_STEPS_PER_UNIT	185	#E轴默认脉冲 (steps/mm)	
+>DEFAULT_E1_STEPS_PER_UNIT	90	#E轴默认脉冲 (steps/mm)	
+
+>DEFAULT_X_MAX_FEEDRATE		200	#X轴默认速度 (mm/s)		
+>DEFAULT_Y_MAX_FEEDRATE		200	#Y轴默认速度 (mm/s)		
+>DEFAULT_Z_MAX_FEEDRATE		4	#Z轴默认速度 (mm/s)		
+>DEFAULT_E0_MAX_FEEDRATE		100	#E轴默认速度 (mm/s)		
+>DEFAULT_E1_MAX_FEEDRATE		100	#E轴默认速度 (mm/s)	
+
+>DEFAULT_X_MAX_ACCELERATION	1000	#X轴默认最大加速度 (change/s) change = mm/s
+>DEFAULT_Y_MAX_ACCELERATION	1000	#Y轴默认最大加速度 (change/s) change = mm/s
+>DEFAULT_Z_MAX_ACCELERATION	100	#Z轴默认最大加速度 (change/s) change = mm/s
+>DEFAULT_E0_MAX_ACCELERATION	1000	#E轴默认最大加速度 (change/s) change = mm/s
+>DEFAULT_E1_MAX_ACCELERATION	1000	#E轴默认最大加速度 (change/s) change = mm/s
+
+>DEFAULT_ACCELERATION		1000	#X,Y,Z,E 打印时的默认加速度		
+>DEFAULT_RETRACT_ACCELERATION	1000	#X,Y,Z,E 回抽默认加速度		
+>DEFAULT_TRAVEL_ACCELERATION	1000	#X,Y,Z 非打印时的默认加速度	
+>DEFAULT_MINIMUMFEEDRATE	0.0	#默认最小速度						
+>DEFAULT_MINSEGMENTTIME		20000	#缓存空时，一个移动所需的最小时间(单位ms). 
+>DEFAULT_MINTRAVELFEEDRATE	0.0	#		
+
+>DEFAULT_XJERK 			15.0	#默认X轴 Jerk (mm/s)	
+>DEFAULT_YJERK 			15.0	#默认Y轴 Jerk (mm/s)	
+>DEFAULT_ZJERK 			0.4	#默认Z轴 Jerk (mm/s)	
+>DEFAULT_EJERK 			5.0	#默认E轴 Jerk (mm/s)	
+
+#For Inverting Stepper Enable Pins  (0:Low,1:High)
+>X_ENABLE_ON		0
+>Y_ENABLE_ON		0
+>Z_ENABLE_ON		0
+>E_ENABLE_ON		0
+
+#============================= 热敏设置 ============================
+>TEMP_SENSOR_0		1		#1: 100k热敏；-3 : MAX31855热电偶
+
+>EXTRUDE_MINTEMP 	170		#打印时,挤出机最低温度(起保护作用)
+>HEATER_0_MINTEMP	5		#挤出0最小温度值
+>HEATER_0_MAXTEMP 	275		#挤出0最大温度值
+>HEATER_1_MINTEMP	5		#挤出1最小温度值
+>HEATER_1_MAXTEMP 	275		#挤出1最大温度值
+>BED_MAXTEMP 		150		#热床最大温度值
+
+#======================== 热敏保护配置 =======================
+>THERMAL_PROTECTION_PERIOD 		45     #单位:秒;当机器频繁出现Err7时,可适当加大当前值;
+>THERMAL_PROTECTION_HYSTERESIS 		5     	#单位:℃
+>WATCH_TEMP_PERIOD 			45	#单位:秒;当机器频繁出现Err5时,可适当加大当前值
+>WATCH_TEMP_INCREASE 			2	#单位:℃
+>THERMAL_PROTECTION_BED_PERIOD 		45    	#单位:秒;当机器频繁出现Err7时,可适当加大当前值
+>THERMAL_PROTECTION_BED_HYSTERESIS 	5 	#单位:℃
+>WATCH_BED_TEMP_PERIOD 			45      #单位:秒;当机器频繁出现Err6时,可适当加大当前值
+>WATCH_BED_TEMP_INCREASE 		2       #单位:℃
+
+# 挤出头温度调控参数设置.
+>PIDTEMPE			1	# 模式选择，1:PID; 0:bang-bang
+>DEFAULT_Kp			24	# P值设置
+>DEFAULT_Ki			0.88	# I值设置
+>DEFAULT_Kd			80	# D值设置
+
+#热床温度调控参数设置..
+>PIDTEMPBED			0	# 模式选择，1:PID; 0:bang-bang
+>DEFAULT_bedKp			10.00	# P值设置
+>DEFAULT_bedKi			0.023	# I值设置
+>DEFAULT_bedKd			305.4	# D值设置
+
+
+#============================== 限位开关设置 ===========================
+
+>MIN_SOFTWARE_ENDSTOPS	 1              # 0:禁止软限位;  1:开启软限位.
+>MAX_SOFTWARE_ENDSTOPS 	 1              # 0:禁止软限位;  1:开启软限位.
+
+# 配置限位开关的接入信号.
+>X_MIN_ENDSTOP_INVERTING 1		# X_MIN限位开关常开/常闭选择
+>Y_MIN_ENDSTOP_INVERTING 1		# Y_MIN限位开关常开/常闭选择
+>Z_MIN_ENDSTOP_INVERTING 1		# Z_MIN限位开关常开/常闭选择
+>X_MAX_ENDSTOP_INVERTING 0		# X_MAX限位开关常开/常闭选择
+>Y_MAX_ENDSTOP_INVERTING 0		# Y_MAX限位开关常开/常闭选择
+>Z_MAX_ENDSTOP_INVERTING 0		# Z_MAX限位开关常开/常闭选择
+>Z_MIN_PROBE_ENDSTOP_INVERTING 0	# Z_PROBE限位开关常开/常闭设置.
+>FIL_RUNOUT_INVERTING 	0		# 断料开关常开/常闭选择
+
+# 指明限位开关或探针的使用接口.
+>USE_XMIN_PLUG	1			# 1:使用; 0:不使用
+>USE_YMIN_PLUG	1			# 1:使用; 0:不使用
+>USE_ZMIN_PLUG	1			# 1:使用; 0:不使用
+>USE_XMAX_PLUG	0			# 1:使用; 0:不使用
+>USE_YMAX_PLUG	0			# 1:使用; 0:不使用
+>USE_ZMAX_PLUG	1			# 1:使用; 0:不使用
+
+
+#==============================  回零设置 ==============================
+
+>X_HOME_DIR -1				# X轴回零方向; 1=MAX方向, -1=MIN方向 :[-1,1]
+>Y_HOME_DIR -1				# Y轴回零方向; 1=MAX方向, -1=MIN方向 :[-1,1]
+>Z_HOME_DIR -1				# Z轴回零方向; 1=MAX方向, -1=MIN方向 :[-1,1]
+>HOMING_FEEDRATE_XY 2400                # XY轴回零速度 (mm/m)
+>HOMING_FEEDRATE_Z  600                 # Z轴回零速度 (mm/m)
+>HOME_Y_BEFORE_X	0       	# 回零时xy轴的顺序,0: X先回零; 1:Y先回零；
+
+
+#============================= Z轴探针设置 =============================
+#探针接口Z-Min或Z-Max.
+>Z_MIN_PROBE_PIN_MODE		2	# 0:不使用; 1:接Z_MIN; 2:接ZMAX
+
+>Z_PROBE_OFFSET_FROM_EXTRUDER	-1.5	# Z 偏移: -below +above  [the nozzle]- this appears opposite!	
+>X_PROBE_OFFSET_FROM_EXTRUDER	-27	# X 偏移: -left  +right  [of the nozzle]
+>Y_PROBE_OFFSET_FROM_EXTRUDER	0	# Y 偏移: -front +behind [the nozzle]
+>XY_PROBE_SPEED 		4000	# 探针XY轴移动速度 (mm/m) 
+>Z_PROBE_SPEED_FAST 		600	# Speed for the first approach when double-probing (with PROBE_DOUBLE_TOUCH)
+>Z_PROBE_SPEED_SLOW 		300	# Speed for the "accurate" probe of each point
+
+
+#=============================== 热床调平设置 ==============================
+
+>BED_LEVELING_METHOD 		3	# 0:不使用调平; 3:多点自动调平; 5:手动网格调平	
+
+>GRID_MAX_POINTS_X 		3	# x轴方式调平点数. <= 15
+>GRID_MAX_POINTS_Y 		3	# y轴方向调平点数. <= 15	
+>Z_CLEARANCE_DEPLOY_PROBE	20	# Z轴抬起/放下的距离.> 0
+>Z_CLEARANCE_BETWEEN_PROBES	20	# Z轴在两个调平点的的移动高度. > 0
+
+# 设置探针能够到达热床的边界距离.
+>LEFT_PROBE_BED_POSITION 	25
+>RIGHT_PROBE_BED_POSITION 	150
+>FRONT_PROBE_BED_POSITION 	25
+>BACK_PROBE_BED_POSITION 	150
+
+>MESH_INSET			20	# MESH_BED_LEVELING调平模式下边界距离范围
+
+
+#============================== Delta机型设置 =============================
+>DELTA_SEGMENTS_PER_SECOND	40      #--default
+>DELTA_DIAGONAL_ROD		346.75	#Center-to-center distance of the holes in the diagonal push rods.	
+>DELTA_SMOOTH_ROD_OFFSET	211.5	#Horizontal offset from middle of printer to smooth rod center.
+>DELTA_EFFECTOR_OFFSET		28	#Horizontal offset of the universal joints on the end effector.
+>DELTA_CARRIAGE_OFFSET		14.5	#Horizontal offset of the universal joints on the carriages.
+>DELTA_RADIUS			169	#Horizontal distance bridged by diagonal push rods when effector is centered.	
+>DELTA_HEIGHT			302	#height from z=0.00 to home position
+>DELTA_PRINTABLE_RADIUS		125	#Print surface diameter/2 minus unreachable space (avoid collisions with vertical towers).
+>DELTA_CALIBRATION_RADIUS	100	#set the radius for the calibration probe points - max 0.8 * DELTA_PRINTABLE_RADIUS 
+
+
+#============================= Z轴探针设置 =============================
+>BLTOUCH		1	# 0:禁用BLTOUCH; 1:启用BLTOUCH
+
+#end.
