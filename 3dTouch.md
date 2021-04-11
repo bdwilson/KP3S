@@ -5,7 +5,14 @@ feature)](https://www.kingroon.com/?do_action=action.download&DId=2) -  [Local A
 
 # Parts
 * [3D Touch auto-leveling sensor](https://www.amazon.com/gp/product/B0821314T9/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0821314T9&linkCode=as2&tag=orgbubba-20&linkId=2d2d0fa5ed316abc4019de7644878363)
-* Left Mount: [male](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-male.stl?raw=true) & [female](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-female.stl?raw=true) (original files from here: https://www.thingiverse.com/thing:4609134) pieces, or the [Right mount](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-right.stl?raw=true)
+* Left Mount:
+[male](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-male.stl?raw=true)
+&
+[female](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-female.stl?raw=true)
+(original files from here: https://www.thingiverse.com/thing:4609134) pieces,
+or the [Right
+mount](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-right.stl?raw=true)
+(From the Kingroon firmware zip)
 * [M3 Button Head screws](https://www.amazon.com/gp/product/B07CYNKLT2/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07CYNKLT2&linkCode=as2&tag=orgbubba-20&linkId=3762d1a6d467669c478e4468c2808d53) - I used hex head but the clearance to the extruder mount is really tight.  Button cap would be best, but hex head will work. 
 
 # Warnings
