@@ -9,6 +9,7 @@ feature)](https://www.kingroon.com/?do_action=action.download&DId=2) -  [Local A
 * [3D Touch auto-leveling sensor](https://www.amazon.com/gp/product/B0821314T9/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0821314T9&linkCode=as2&tag=orgbubba-20&linkId=2d2d0fa5ed316abc4019de7644878363) - I'm almost certain an official BL Touch device would work, but this was less and had good reviews, so I gave it a shot. 
 * Left Mount:
 [male](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-male.stl?raw=true)
+- should be printed with supports
 &
 [female](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-female.stl?raw=true)
 (original files from here: https://www.thingiverse.com/thing:4609134) pieces,
