@@ -15,9 +15,15 @@ using a "newer" bed. If you damaage it, you can always try to fill the bigger
 holes with some rectorseal. 
 
 # Installation
-1. Print your parts - left male & female pieces from above, or the right mount
+1. Print your parts - left
+[male](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-male.stl?raw=true)
+&
+[female](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-female.stl?raw=true)
+pieces, or the [right
+mount](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-right.stl?raw=true)
 piece. If you have a stock fan setup, right mount is likely the easiest way to
-go. <br>
+go but ___I have not tested the configuration file for right - this was the
+file from Kingroon but they forgot to invert the extruder E0)___. <br>
 <a href="https://bdwilson.github.io/images/IMG_1258-2.jpg"><img src="https://bdwilson.github.io/images/IMG_1258-2.jpg" width=400px></a>
 2. Wire it up: If you got the above part from Amazon, connect the ends of the 3d
 touch devіce to the extension so that:
