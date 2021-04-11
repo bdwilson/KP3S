@@ -44,9 +44,13 @@ ___white___ wire. All other wires are the same.<br>
 4. Format an SD card - if using the one that came with your device, it's
 properly formatted (MBR boot, FAT32). Use this firmware ([Latest Official Firmware (w/ 3D Touch/BL Touch
 feature)](https://www.kingroon.com/?do_action=action.download&DId=2) -  [Local Archive - 12/12/2020](https://github.com/bdwilson/KP3S/blob/main/files/KP3S-Firmware-3Dtouch.zip?raw=true). Put all the files in the root if your SD card. Copy over the proper configuration file depending on which side you mounted your 3d touch device
-: [left](https://github.com/bdwilson/KP3S/blob/main/files/robin_nano_cfg-left.txt?raw=true) or [right](https://github.com/bdwilson/KP3S/blob/main/files/robin_nano_cfg-right.txt?raw=true).  ___Rename the files to remove "-left" or "-right" so you're left with
-robin_nano_cfg.txt___
-5. When you reboot your device, you should see it flashing the new firmware and
+:
+[left](https://github.com/bdwilson/KP3S/blob/main/files/robin_nano_cfg-left.txt?raw=true)
+or
+[right](https://github.com/bdwilson/KP3S/blob/main/files/robin_nano_cfg-right.txt?raw=true).
+___Rename the files to remove "-left" or "-right" so you're left with
+robin_nano_cfg.txt___. Put this in the root of your SD card too. 
+5. Put the SD card into yourd evice. When you reboot your device, you should see it flashing the new firmware and
 applying the settings. Once it does this, it renames both files to .CUR on your
 SD card.  If you want to change just the settings, you can copy the .CUR
 configuration file to robin_nano_cfg.txt and then reboot the device and it will
