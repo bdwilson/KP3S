@@ -90,3 +90,5 @@ z-offsets
   * Store current settings to EEPROM
 * M501 
   * Restore settings from EEPROM 
+
+[\<\< Back to Main KP3S site](README.md)
