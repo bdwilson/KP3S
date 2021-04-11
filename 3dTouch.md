@@ -26,7 +26,8 @@ go but ___I have not tested the configuration file for right - this was the
 file from Kingroon but they forgot to invert the extruder E0)___. <br>
 <a href="https://bdwilson.github.io/images/IMG_1258-2.jpg"><img src="https://bdwilson.github.io/images/IMG_1258-2.jpg" width=400px></a>
 2. Wire it up: If you got the above part from Amazon, connect the ends of the 3d
-touch devіce to the extension so that:
+touch devіce to the extension so that (in the picture the 3d touch piece is on
+the RIGHT, extension wires on the left):
   * Orange (3d Touch) -> Brown (extension)
   * Yellow (3d Touch) -> Red (extension)
   * Green (3d Touch) -> Yellow (extension)
