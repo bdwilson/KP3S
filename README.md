@@ -28,18 +28,21 @@ install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin,
 * [Quick Bed Level Test](https://www.thingiverse.com/thing:2280529) - Pick 175mm verison, [Another quick level test print](https://www.thingiverse.com/thing:3915122)
 * [X-Carriage Cable Support](https://www.thingiverse.com/thing:4679515), [Z-Carriage Cable Support](https://www.thingiverse.com/thing:4689252)
 * [Marlin LCD Mount](https://www.thingiverse.com/thing:4578390) (Marlin firmware requires display be in landscape orientation)
-* [BL Touch Mount](https://www.thingiverse.com/thing:4692042) for use with [3D Touch auto-leveling Sensor](https://www.amazon.com/gp/product/B0821314T9/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0821314T9&linkCode=as2&tag=orgbubba-20&linkId=2d2d0fa5ed316abc4019de7644878363) (not confirmed this working yet). 
+* [BL Touch Mount](https://www.thingiverse.com/thing:4692042) for use with [3D Touch auto-leveling Sensor](https://www.amazon.com/gp/product/B0821314T9/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0821314T9&linkCode=as2&tag=orgbubba-20&linkId=2d2d0fa5ed316abc4019de7644878363) - [Install Guide](3dTouch.md)
 * [Modular Hotend fan mount for 5015 and 3D Touch](https://www.thingiverse.com/thing:4609134) and [5015 fans](https://www.amazon.com/gp/product/B0885XR31J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0885XR31J&linkCode=as2&tag=orgbubba-20&linkId=ad2dc28ae56eb2a70f9331ef4ead53b6) 
 * [Powersupply Stand](https://www.thingiverse.com/thing:4740318)
 * [Fan Silencer](https://www.thingiverse.com/thing:3612639) use this with the [temperature-sensor mod](Powersupply.md) to really quiet your device down.
 
 ## Upgrades
 * [Temperature-based fan controller for KP3S power supply](Powersupply.md)
-* BL Touch (not done yet, but if someone has a process/video/firmware needed, I'd like to document it)
+* [BL Touch/3D Touch](3dTouch.md)
 
 ## Parts
 * [Kingroon Flexible/magnetic build
 plate.](https://www.amazon.com/gp/product/B08KXN8ZGD/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B08KXN8ZGD&linkCode=as2&tag=orgbubba-20&linkId=06e9ed49fc5541940522d04fa697c856)
 * [5015 24v Blower Fans](https://www.amazon.com/gp/product/B0885XR31J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0885XR31J&linkCode=as2&tag=orgbubba-20&linkId=ad2dc28ae56eb2a70f9331ef4ead53b6)
-* [3D Touch auto-leveling sensor](https://www.amazon.com/gp/product/B0821314T9/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0821314T9&linkCode=as2&tag=orgbubba-20&linkId=2d2d0fa5ed316abc4019de7644878363) - for use with 3D Touch firmware above - see installation instructions, printable parts inside firmware zip.
+* [3D Touch auto-leveling
+sensor](https://www.amazon.com/gp/product/B0821314T9/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0821314T9&linkCode=as2&tag=orgbubba-20&linkId=2d2d0fa5ed316abc4019de7644878363)
+- for use with 3D Touch firmware above - see installation instructions,
+printable parts inside firmware zip or [my install guide](3dTouch.md)
 * [Super Lube Synthetic Oil](https://www.amazon.com/gp/product/B000UKUHXK/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B000UKUHXK&linkCode=as2&tag=orgbubba-20&linkId=8f584c48f315bc5f149479d701802779) - my printer came with dry rails, so this is required for a new printer.

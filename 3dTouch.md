@@ -22,8 +22,8 @@ holes with some rectorseal.
 pieces, or the [right
 mount](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-right.stl?raw=true)
 piece. If you have a stock fan setup, right mount is likely the easiest way to
-go but ___I have not tested the configuration file for right - this was the
-file from Kingroon but they forgot to invert the extruder E0)___. <br>
+go but ___I have not tested the configuration file for right-side mount - this was the
+file supplied by Kingroon in their bundle but they forgot to invert the extruder E0)___. <br>
 <a href="https://bdwilson.github.io/images/IMG_1258-2.jpg"><img src="https://bdwilson.github.io/images/IMG_1258-2.jpg" width=400px></a>
 2. Wire it up: If you got the above part from Amazon, connect the ends of the 3d
 touch devіce to the extension so that (in the picture the 3d touch piece is on
