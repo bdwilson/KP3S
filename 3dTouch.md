@@ -34,7 +34,8 @@ the RIGHT, extension wires on the left):
   * Blue (3d Touch) -> Black (extension)
   * Black (3d Touch) -> White (extension)<br>
 <a href="https://bdwilson.github.io/images/IMG_1256.jpg"><img src="https://bdwilson.github.io/images/IMG_1256.jpg" width=400px></a>
-3. Wire this up to your mainboard per KP3S .docx that comes in the zip file for
+3. Wire this up to your mainboard per [KP3S Usage
+doc](https://github.com/bdwilson/KP3S/blob/main/files/KP3S-3Dtouch-Usage.docx?raw=true) that comes in the zip file for
 the 3d touch 3d touch 3d touch firmware. But for their picture their
 ___green___ wire is your ___brown___ wire, and their ___grey___ wire is your
 ___white___ wire. All other wires are the same.<br>
