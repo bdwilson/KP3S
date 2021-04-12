@@ -12,13 +12,11 @@ G91 ; set to Relative position
 G1 E-1 F300 ; retract filament a bit before lifting nozzle
 G0 Z15 ; move z axis up 15mm
 G90 ; set to Absolute position
-G1 Y150 F5000 ; move part out for inspection
-G1 X150 F5000 ; move nozzle out of the way
-M84 ; disable motors
-;disable all heaters
-{% snippet 'disable_hotends' %}
-{% snippet 'disable_bed' %}
-M106 S0 ; disable fan
+G0 X150Y150; move part out for inspection
+M104 S0 ; turn off extruder heat
+M140 S0 ; turn off heated bed
+M106 S0 ; Turn off fan
+M84; Move Freely
 </pre>
 
 <b>After print job is paused</b>
