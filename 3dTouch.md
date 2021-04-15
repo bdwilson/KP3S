@@ -1,6 +1,6 @@
-# 3d Touch - THIS IS A WORK IN PROGRESS. IT IS NOT WORKING AS IT SHOULD FOR NOW
+# 3d Touch - THIS IS NOT WORKING YET 
 
-__The issue is that Z-MIN is never adjusted properly when you do this. In order to BL touch to be used, the physical z-stop needs to be disabled/not used. The problem is that the physical end-stop always stops Z prior to where the extruder needs to be.  If you move the Z turn knob down, the extruder will run into the bed when homing, even after an auto-level. I assume this needs to have Marlin options USE_PROBE_FOR_Z_HOMING and Z_SAFE_HOMING enabled for this firmware to work properly.__ 
+__The issue is that Z-MIN is never adjusted properly when you do this. In order to BL touch to be used, the physical z-stop needs to be disabled/not used. The problem is that the physical end-stop always stops Z prior to where the extruder needs to be.  If you move the Z turn knob down, the extruder will run into the bed when homing, even after an auto-level. I assume this needs to have Marlin options USE_PROBE_FOR_Z_HOMING and Z_SAFE_HOMING enabled for this firmware to work properly.__
 
 [\<\< Back to Main KP3S site](README.md)
 
