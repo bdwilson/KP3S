@@ -26,7 +26,12 @@ install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin,
 
 ## Printable Parts
 * [Quick Bed Level Test](https://www.thingiverse.com/thing:2280529) - Pick 175mm verison, [Another quick level test print](https://www.thingiverse.com/thing:3915122)
-* [X-Carriage Cable Support](https://www.thingiverse.com/thing:4679515), [Z-Carriage Cable Support](https://www.thingiverse.com/thing:4689252)
+* [Filament Elephant](https://www.thingiverse.com/thing:4777275) - sits at the top of the Z-axis and helps you guide the filament into your extruder.
+* [X-Carriage Cable Support](https://www.thingiverse.com/thing:4679515)
+* [Z-Carriage Cable Support](https://www.thingiverse.com/thing:4689252)
+* [Y-Axis Mod/Tension](https://www.thingiverse.com/thing:4634195) - the internal Y spindle is bent on many devices and may break. Print this in advance of this breaking. 
+* [X-Axis Mod/Tension](https://www.thingiverse.com/thing:4712826)
+* [SD Card fix](https://www.thingiverse.com/thing:4694522) - sd card slot is open too much, thus you may stick your SD card into the case vs. the slot
 * [Marlin LCD Mount](https://www.thingiverse.com/thing:4578390) (Marlin firmware requires display be in landscape orientation)
 * [BL Touch Mount](https://www.thingiverse.com/thing:4692042) for use with [3D Touch auto-leveling Sensor](https://www.amazon.com/gp/product/B0821314T9/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0821314T9&linkCode=as2&tag=orgbubba-20&linkId=2d2d0fa5ed316abc4019de7644878363) - [Install Guide](3dTouch.md)
 * [Modular Hotend fan mount for 5015 and 3D Touch](https://www.thingiverse.com/thing:4609134) and [5015 fans](https://www.amazon.com/gp/product/B0885XR31J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0885XR31J&linkCode=as2&tag=orgbubba-20&linkId=ad2dc28ae56eb2a70f9331ef4ead53b6) 
@@ -38,6 +43,7 @@ install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin,
 * [BL Touch/3D Touch](3dTouch.md)
 
 ## Parts
+* [Energetic 180x180mm Spring Steel Plate - smooth/textured](https://www.aliexpress.com/item/1005001694454603.html) - these are great!  I only use the Kingroon plate for situations where the bed might get damaged (when messing with BL Touch, etc). 
 * [Kingroon Flexible/magnetic build
 plate.](https://www.amazon.com/gp/product/B08KXN8ZGD/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B08KXN8ZGD&linkCode=as2&tag=orgbubba-20&linkId=06e9ed49fc5541940522d04fa697c856)
 * [5015 24v Blower Fans](https://www.amazon.com/gp/product/B0885XR31J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0885XR31J&linkCode=as2&tag=orgbubba-20&linkId=ad2dc28ae56eb2a70f9331ef4ead53b6)
