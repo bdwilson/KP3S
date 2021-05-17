@@ -41,6 +41,7 @@ install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin,
 ## Upgrades
 * [Temperature-based fan controller for KP3S power supply](Powersupply.md)
 * [BL Touch/3D Touch](3dTouch.md)
+* [Anti-backlash nut](https://amzn.to/3foMpil) - Direct replacement for existing T8 screw nut but adds the anti-backlash spring. 
 
 ## Parts
 * [Energetic 180x180mm Spring Steel Plate - smooth/textured](https://www.aliexpress.com/item/1005001694454603.html) - these are great!  I only use the Kingroon plate for situations where the bed might get damaged (when messing with BL Touch, etc). 
