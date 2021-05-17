@@ -37,6 +37,7 @@ install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin,
 * [Modular Hotend fan mount for 5015 and 3D Touch](https://www.thingiverse.com/thing:4609134) and [5015 fans](https://www.amazon.com/gp/product/B0885XR31J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0885XR31J&linkCode=as2&tag=orgbubba-20&linkId=ad2dc28ae56eb2a70f9331ef4ead53b6) 
 * [Powersupply Stand](https://www.thingiverse.com/thing:4740318)
 * [Fan Silencer](https://www.thingiverse.com/thing:3612639) use this with the [temperature-sensor mod](Powersupply.md) to really quiet your device down.
+* [Self-centering Z coupler](https://www.thingiverse.com/thing:1651349) fix that z-banding/wobble issue. Use in conjunction with the anti-backlash nut below. 
 
 ## Upgrades
 * [Temperature-based fan controller for KP3S power supply](Powersupply.md)
