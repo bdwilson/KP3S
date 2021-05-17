@@ -41,7 +41,6 @@ install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin,
 ## Upgrades
 * [Temperature-based fan controller for KP3S power supply](Powersupply.md)
 * [BL Touch/3D Touch](3dTouch.md)
-* [Anti-backlash nut](https://amzn.to/3foMpil) - Direct replacement for existing T8 screw nut but adds the anti-backlash spring. 
 
 ## Parts
 * [Energetic 180x180mm Spring Steel Plate - smooth/textured](https://www.aliexpress.com/item/1005001694454603.html) - these are great!  I only use the Kingroon plate for situations where the bed might get damaged (when messing with BL Touch, etc). 
@@ -49,3 +48,4 @@ install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin,
 plate.](https://www.amazon.com/gp/product/B08KXN8ZGD/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B08KXN8ZGD&linkCode=as2&tag=orgbubba-20&linkId=06e9ed49fc5541940522d04fa697c856)
 * [5015 24v Blower Fans](https://www.amazon.com/gp/product/B0885XR31J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0885XR31J&linkCode=as2&tag=orgbubba-20&linkId=ad2dc28ae56eb2a70f9331ef4ead53b6)
 * [Super Lube Synthetic Oil](https://www.amazon.com/gp/product/B000UKUHXK/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B000UKUHXK&linkCode=as2&tag=orgbubba-20&linkId=8f584c48f315bc5f149479d701802779) - my printer came with dry rails, so this is required for a new printer.
+* [Anti-backlash nut](https://amzn.to/3foMpil) - Direct replacement for existing T8 screw nut but adds the anti-backlash spring. 
