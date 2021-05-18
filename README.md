@@ -21,8 +21,8 @@ Firmware](https://www.kingroon.com/?do_action=action.download&DId=3). To
 install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory &
 it's contents) and mks_font (directory & it's contents). - [Local Archive - 12/12/2020](https://github.com/bdwilson/KP3S/blob/main/files/KP3S-Firmware-201022.zip?raw=true)
 * [Latest Official Firmware (w/ 3D Touch/BL Touch
-feature)](https://www.kingroon.com/?do_action=action.download&DId=2). To
-install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents). - [Local Archive - 12/12/2020](https://github.com/bdwilson/KP3S/blob/main/files/KP3S-Firmware-3Dtouch.zip?raw=true)
+feature)](https://www.kingroon.com/?do_action=action.download&DId=2). To install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents). - [Local Archive - 12/12/2020](https://github.com/bdwilson/KP3S/blob/main/files/KP3S-Firmware-3Dtouch.zip?raw=true)
+* [Latest Official Firmware (Titan Extruder)](https://drive.google.com/file/d/1kPQxm5T_yYI69wms1M1YTskTk_kCHVkX/view?fbclid=IwAR2ctKDDY0_13oM1lmBTmm64LVbSZ03Nk32A02AtxOQXxI46-wlOORN-vvc) - To install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents). - [Local Archive - 4/2021](https://github.com/bdwilson/KP3S/blob/main/files/)
 
 ## Printable Parts
 * [Quick Bed Level Test](https://www.thingiverse.com/thing:2280529) - Pick 175mm verison, [Another quick level test print](https://www.thingiverse.com/thing:3915122)
