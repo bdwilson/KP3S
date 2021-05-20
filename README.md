@@ -1,8 +1,8 @@
+# Kingroon KP3S 
+
+<b>For general documentation/upgrades, please go here: https://bubba.org/kp3s</b>
+
 # Marlin v2.0.7 for Kingroon KP3S
-
-<b>Expecting KP3S general documentation/upgrades, please go here:
-https://bubba.org/kp3s</b>
-
 Thanks to @olavgm for his work on this: https://github.com/olavgm/marlin-kp3s 
 
 I've only changed the `configuration.h` and `configuration_adv.h` files.
