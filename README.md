@@ -21,7 +21,7 @@ Follow the directions from [TH3D](https://support.th3dstudio.com/hc/downloads/un
 ### KP3S w/ Stock Extruder, BL Touch mounted on left of extruder
 1. Mount BL Touch here: [male](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-male.stl?raw=true) - should be printed with supports & [female](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-female.stl?raw=true) (original files from here: https://www.thingiverse.com/thing:4609134)
 2. Configure configuration.h to match the following or use [this
-binary](https://github.com/bdwilson/KP3S/blob/main/marlin-kp3s/releases/Stock/Robin_nano.bin?raw=true).
+binary](https://github.com/bdwilson/KP3S/blob/main/releases/Stock/Robin_nano.bin?raw=true).
 <b>You will set your z offset yourself via Marlin menu. If you don't use
 the mount above, your offsets WILL be different and you'll need to compile your
 own version.</b>
@@ -33,7 +33,7 @@ own version.</b>
 ### KP3S w/ Titan w/ metal enclosure, BL Touch mounted on right of extruder
 1. Mount BL Touch using [this mount](https://www.thingiverse.com/thing:4816601)
 2. Configure configuration.h to match the following or use [this
-binary](https://github.com/bdwilson/KP3S/blob/main/marlin-kp3s/releases/Titan/Robin_nano.bin?raw=true).
+binary](https://github.com/bdwilson/KP3S/blob/main/releases/Titan/Robin_nano.bin?raw=true).
 <b>You will set your z offset yourself via Marlin menu. If you don't use
 the mount above, your offsets WILL be different and you'll need to compile your
 own version.</b>
