@@ -23,6 +23,7 @@ it's contents) and mks_font (directory & it's contents). - [Local Archive - 12/1
 * [Latest Official Firmware (w/ 3D Touch/BL Touch
 feature)](https://www.kingroon.com/?do_action=action.download&DId=2). To install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents). - [Local Archive - 12/12/2020](https://github.com/bdwilson/KP3S/blob/main/files/KP3S-Firmware-3Dtouch.zip?raw=true)
 * [Latest Official Firmware (Titan Extruder)](https://drive.google.com/file/d/1kPQxm5T_yYI69wms1M1YTskTk_kCHVkX/view?fbclid=IwAR2ctKDDY0_13oM1lmBTmm64LVbSZ03Nk32A02AtxOQXxI46-wlOORN-vvc) - To install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents). - [Local Archive - 4/2021](https://github.com/bdwilson/KP3S/blob/main/files/)
+* [Marlin Firmware](https://github.com/bdwilson/KP3S/tree/main/marlin-kp3s)
 
 ## Printable Parts
 * [Quick Bed Level Test](https://www.thingiverse.com/thing:2280529) - Pick 175mm verison, [Another quick level test print](https://www.thingiverse.com/thing:3915122)
@@ -33,7 +34,7 @@ feature)](https://www.kingroon.com/?do_action=action.download&DId=2). To install
 * [X-Axis Mod/Tension](https://www.thingiverse.com/thing:4712826)
 * [SD Card fix](https://www.thingiverse.com/thing:4694522) - sd card slot is open too much, thus you may stick your SD card into the case vs. the slot
 * [Marlin LCD Mount](https://www.thingiverse.com/thing:4578390) (Marlin firmware requires display be in landscape orientation)
-* [BL Touch Mount](https://www.thingiverse.com/thing:4692042) - [Install Guide](3dTouch.md) ___NOT WORKING YET___
+* [BL Touch Mount](https://www.thingiverse.com/thing:4692042) - [Install Guide](3dTouch.md) ___Onlyl working with Marlin Firmware___
 * [Modular Hotend fan mount for 5015 and 3D Touch](https://www.thingiverse.com/thing:4609134) and [5015 fans](https://www.amazon.com/gp/product/B0885XR31J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0885XR31J&linkCode=as2&tag=orgbubba-20&linkId=ad2dc28ae56eb2a70f9331ef4ead53b6) 
 * [Powersupply Stand](https://www.thingiverse.com/thing:4740318)
 * [Fan Silencer](https://www.thingiverse.com/thing:3612639) use this with the [temperature-sensor mod](Powersupply.md) to really quiet your device down.

@@ -1,6 +1,6 @@
 # Marlin v2.0.7 for Kingroon KP3S
 
-Original work from: https://github.com/olavgm/marlin-kp3s 
+Thanks to @olavgm for his work on this: https://github.com/olavgm/marlin-kp3s 
 
 I've only changed the `configuration.h` and `configuration_adv.h` files.
 
@@ -11,6 +11,7 @@ I've only changed the `configuration.h` and `configuration_adv.h` files.
 ## Building Releases
 Follow the directions from [TH3D](https://support.th3dstudio.com/hc/downloads/unified-2-firmware/kingroon/kingroon-kp-3s-firmware-kingroon-v1-2-board/), but use this code. 
 
+## Installation
 To install, copy Robin35_nano.bin to in the root of an FAT32-formatted SD card and rename it Robin_nano.bin
 
 ### KP3S w/ Stock Extruder, BL Touch mounted on left of extruder
