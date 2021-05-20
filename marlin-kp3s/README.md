@@ -15,7 +15,9 @@ To install, copy Robin35_nano.bin to in the root of an FAT32-formatted SD card a
 
 ### KP3S w/ Stock Extruder, BL Touch mounted on left of extruder
 1. Mount BL Touch here: [male](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-male.stl?raw=true) - should be printed with supports & [female](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-female.stl?raw=true) (original files from here: https://www.thingiverse.com/thing:4609134)
-2. Configure configuration.h to match the following or use this binary. <b>You will set your z offset yourself via Marlin menu</b>
+2. Configure configuration.h to match the following or use [this
+binary](https://github.com/bdwilson/KP3S/blob/main/marlin-kp3s/releases/Stock/Robin_nano.bin?raw=true). <b>You will set your z offset yourself via Marlin menu</b> If you don't use
+the mount above, your offsets may be different.
 <pre>
 #define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 185 }  // for stock extruder
 #define NOZZLE_TO_PROBE_OFFSET { -27, 0, 0 }  // old extruder, mount on left
@@ -23,7 +25,10 @@ To install, copy Robin35_nano.bin to in the root of an FAT32-formatted SD card a
 
 ### KP3S w/ Titan w/ metal enclosure, BL Touch mounted on right of extruder
 1. Mount BL Touch using [this mount](https://www.thingiverse.com/thing:4816601)
-2. Configure configuration.h to match the following or use this binary. <b>You will set your z offset yourself via Marlin menu</b>
+2. Configure configuration.h to match the following or use [this
+binary](https://github.com/bdwilson/KP3S/blob/main/marlin-kp3s/releases/Titan/Robin_nano.bin?raw=true).
+<b>You will set your z offset yourself via Marlin menu</b>. If you don't use
+the mount above, your offsets may be different. 
 <pre>
 #define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 3200, 555 } // for titan 
 #define NOZZLE_TO_PROBE_OFFSET { 31, 0, 0 }  // titan extruder mount on right
