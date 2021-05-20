@@ -1,53 +1,44 @@
-# Kingroon KP3S 3D Printer Notes
+# Marlin v2.0.7 for Kingroon KP3S
 
-Below are my notes, upgrades, info on the [Kingroon KP3S 3D
-Printer](https://www.amazon.com/gp/product/B08F51DPRX/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B08F51DPRX&linkCode=as2&tag=orgbubba-20&linkId=775b118605389899af8b4b9708d69a68).
-If you need to be convinced that this is the printer for you, please [see the
-following review](https://3dprintbeginner.com/kingroon-kp3s-review/). I was in
-need of a smaller printer that I could fit on a shelf, and this fit the bill.
-It's very the Prusa Mini, but you can get this in 2 days vs. 2 months.  
+<b>Expecting KP3S general documentation/upgrades, please go here:
+https://bubba.org/kp3s</b>
 
-## Cura Configuration
-* Select Creality -> Ender 3 as your device and make [these changes](Cura.md)
+Thanks to @olavgm for his work on this: https://github.com/olavgm/marlin-kp3s 
 
-## Octoprint Configuration
-* [Setup/Install Octoprint](https://octoprint.org/download/)
-* Create new device and configure following [these guidelines](Octoprint.md)
+I've only changed the `configuration.h` and `configuration_adv.h` files.
 
-## Downloads
-* [KP3S Manual](https://www.kingroon.com/?do_action=action.download&DId=6) - [Local Archive - 12/28/2020](https://github.com/bdwilson/KP3S/blob/main/files/KP3S%20User%20Manual%202020.12.28.pdf)
-* [Latest Official
-Firmware](https://www.kingroon.com/?do_action=action.download&DId=3). To
-install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory &
-it's contents) and mks_font (directory & it's contents). - [Local Archive - 12/12/2020](https://github.com/bdwilson/KP3S/blob/main/files/KP3S-Firmware-201022.zip?raw=true)
-* [Latest Official Firmware (w/ 3D Touch/BL Touch
-feature)](https://www.kingroon.com/?do_action=action.download&DId=2). To install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents). - [Local Archive - 12/12/2020](https://github.com/bdwilson/KP3S/blob/main/files/KP3S-Firmware-3Dtouch.zip?raw=true)
-* [Latest Official Firmware (Titan Extruder)](https://drive.google.com/file/d/1kPQxm5T_yYI69wms1M1YTskTk_kCHVkX/view?fbclid=IwAR2ctKDDY0_13oM1lmBTmm64LVbSZ03Nk32A02AtxOQXxI46-wlOORN-vvc) - To install, put contents in the root of an FAT32-formatted SD card: Robin_nano.bin, robin_nano_cfg.txt, mks_pic (directory & it's contents) and mks_font (directory & it's contents). - [Local Archive - 4/2021](https://github.com/bdwilson/KP3S/blob/main/files/)
-* [Marlin Firmware](https://github.com/bdwilson/KP3S/tree/main/marlin-kp3s)
+* Support for *BLTouch* has been added
+* Babystepping added (but babystepping automatically updates z offset, so make sure to save once you have your z offset the way you want it).  
+* You'll need to turn your LCD sideways using [this](https://www.thingiverse.com/thing:4578390) print, or just turn your head sideways. I've chosen to do this since I use Octoprint and also have a magnetic camera mounted to where this LCD screen would overhang.  
 
-## Printable Parts
-* [Quick Bed Level Test](https://www.thingiverse.com/thing:2280529) - Pick 175mm verison, [Another quick level test print](https://www.thingiverse.com/thing:3915122)
-* [Filament Elephant](https://www.thingiverse.com/thing:4777275) - sits at the top of the Z-axis and helps you guide the filament into your extruder.
-* [X-Carriage Cable Support](https://www.thingiverse.com/thing:4679515)
-* [Z-Carriage Cable Support](https://www.thingiverse.com/thing:4689252)
-* [Y-Axis Mod/Tension](https://www.thingiverse.com/thing:4634195) - the internal Y spindle is bent on many devices and may break. Print this in advance of this breaking. 
-* [X-Axis Mod/Tension](https://www.thingiverse.com/thing:4712826)
-* [SD Card fix](https://www.thingiverse.com/thing:4694522) - sd card slot is open too much, thus you may stick your SD card into the case vs. the slot
-* [Marlin LCD Mount](https://www.thingiverse.com/thing:4578390) (Marlin firmware requires display be in landscape orientation)
-* [BL Touch Mount](https://www.thingiverse.com/thing:4692042) - [Install Guide](3dTouch.md) ___Onlyl working with Marlin Firmware___
-* [Modular Hotend fan mount for 5015 and 3D Touch](https://www.thingiverse.com/thing:4609134) and [5015 fans](https://www.amazon.com/gp/product/B0885XR31J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0885XR31J&linkCode=as2&tag=orgbubba-20&linkId=ad2dc28ae56eb2a70f9331ef4ead53b6) 
-* [Powersupply Stand](https://www.thingiverse.com/thing:4740318)
-* [Fan Silencer](https://www.thingiverse.com/thing:3612639) use this with the [temperature-sensor mod](Powersupply.md) to really quiet your device down.
-* [Self-centering Z coupler](https://www.thingiverse.com/thing:1651349) fix that z-banding/wobble issue. Use in conjunction with the anti-backlash nut below. 
+## Building Releases
+Follow the directions from [TH3D](https://support.th3dstudio.com/hc/downloads/unified-2-firmware/kingroon/kingroon-kp-3s-firmware-kingroon-v1-2-board/), but use this code. 
 
-## Upgrades
-* [Temperature-based fan controller for KP3S power supply](Powersupply.md)
-* [BL Touch/3D Touch](3dTouch.md)
+## Installation
+1. Follow the guidance here on installing and connecting: https://bubba.org/kp3s/3dTouch/
+2. To install, copy Robin35_nano.bin to in the root of an FAT32-formatted SD card and rename it Robin_nano.bin. 
 
-## Parts
-* [Energetic 180x180mm Spring Steel Plate - smooth/textured](https://www.aliexpress.com/item/1005001694454603.html) - these are great!  I only use the Kingroon plate for situations where the bed might get damaged (when messing with BL Touch, etc). 
-* [Kingroon Flexible/magnetic build
-plate.](https://www.amazon.com/gp/product/B08KXN8ZGD/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B08KXN8ZGD&linkCode=as2&tag=orgbubba-20&linkId=06e9ed49fc5541940522d04fa697c856)
-* [5015 24v Blower Fans](https://www.amazon.com/gp/product/B0885XR31J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0885XR31J&linkCode=as2&tag=orgbubba-20&linkId=ad2dc28ae56eb2a70f9331ef4ead53b6)
-* [Super Lube Synthetic Oil](https://www.amazon.com/gp/product/B000UKUHXK/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B000UKUHXK&linkCode=as2&tag=orgbubba-20&linkId=8f584c48f315bc5f149479d701802779) - my printer came with dry rails, so this is required for a new printer.
-* [Anti-backlash nut](https://amzn.to/3foMpil) - Direct replacement for existing T8 screw nut but adds the anti-backlash spring. 
+### KP3S w/ Stock Extruder, BL Touch mounted on left of extruder
+1. Mount BL Touch here: [male](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-male.stl?raw=true) - should be printed with supports & [female](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-female.stl?raw=true) (original files from here: https://www.thingiverse.com/thing:4609134)
+2. Configure configuration.h to match the following or use [this
+binary](https://github.com/bdwilson/KP3S/blob/main/marlin-kp3s/releases/Stock/Robin_nano.bin?raw=true).
+<b>You will set your z offset yourself via Marlin menu. If you don't use
+the mount above, your offsets WILL be different and you'll need to compile your
+own version.</b>
+<pre>
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 185 }  // for stock extruder
+#define NOZZLE_TO_PROBE_OFFSET { -27, 0, 0 }  // old extruder, mount on left
+</pre>
+
+### KP3S w/ Titan w/ metal enclosure, BL Touch mounted on right of extruder
+1. Mount BL Touch using [this mount](https://www.thingiverse.com/thing:4816601)
+2. Configure configuration.h to match the following or use [this
+binary](https://github.com/bdwilson/KP3S/blob/main/marlin-kp3s/releases/Titan/Robin_nano.bin?raw=true).
+<b>You will set your z offset yourself via Marlin menu. If you don't use
+the mount above, your offsets WILL be different and you'll need to compile your
+own version.</b>
+<pre>
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 3200, 555 } // for titan 
+#define NOZZLE_TO_PROBE_OFFSET { 31, 0, 0 }  // titan extruder mount on right
+</pre>
+
