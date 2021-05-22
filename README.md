@@ -8,7 +8,7 @@ Thanks to @olavgm for his work on this: https://github.com/olavgm/marlin-kp3s
 I've only changed the `configuration.h` and `configuration_adv.h` files.
 
 * Support for *BLTouch* has been added
-* Babystepping added (but babystepping automatically updates z offset, so make sure to save once you have your z offset the way you want it).  
+* Babystepping added (but babystepping automatically updates z offset, so make sure to save once you have your z offset the way you want it). To use this, start a print, go into Settings -> Tune -> Z probe offset. 
 * You'll need to turn your LCD sideways using [this](https://www.thingiverse.com/thing:4578390) print, or just turn your head sideways. I've chosen to do this since I use Octoprint and also have a magnetic camera mounted to where this LCD screen would overhang.  
 
 ## Building Releases
