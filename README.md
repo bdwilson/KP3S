@@ -15,9 +15,9 @@ I've only changed the `configuration.h` and `configuration_adv.h` files.
 1. Follow the guidance here on installing and connecting: https://bubba.org/kp3s/3dTouch/
 2. To install, copy Robin35_nano.bin to in the root of an FAT32-formatted SD card and rename it Robin_nano.bin. 
 
-## Downloading a build.
+## Downloading a build
 <b>These builds are built using the Titan settings below. If you have a different
-setup, you will need to configure your paramters using repetier or
+setup, you will need to configure your parameters using repetier or
 Ocotprint. The changes are mentioned below.</b>
 
 * https://github.com/bdwilson/KP3S/tree/main/releases 
