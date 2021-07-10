@@ -13,7 +13,8 @@ I've only changed the `configuration.h` and `configuration_adv.h` files.
 
 ## Installation
 1. Follow the guidance here on installing and connecting: https://bubba.org/kp3s/3dTouch/
-2. To install, copy Robin35_nano.bin to in the root of an FAT32-formatted SD card and rename it Robin_nano.bin. 
+2. To install, copy Robin_nano.bin to in the root of an FAT32-formatted SD card.
+3. You will need to adjust your Z-Offset (where your printer thinks the bed is in perspective to the extruder tip). Get your favorite bed leveling test print and utilize the Tune -> Z Probe Offset menu (only available after a print has been sent to the printer). You can also adjust this down to zero and slowly decrease it (go towards the negative) if you are worried about damaging your bed.
 
 ## Downloading a build
 <b>These builds are built using the Titan settings below. If you have a different
