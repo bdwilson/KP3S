@@ -11,9 +11,6 @@ I've only changed the `configuration.h` and `configuration_adv.h` files.
 * Babystepping added (but babystepping automatically updates z offset, so make sure to save once you have your z offset the way you want it). To use this, start a print, go into Settings -> Tune -> Z probe offset. 
 * You'll need to turn your LCD sideways using [this](https://www.thingiverse.com/thing:4578390) print, or just turn your head sideways. I've chosen to do this since I use Octoprint and also have a magnetic camera mounted to where this LCD screen would overhang.  
 
-## Building Releases
-Follow the directions from [TH3D](https://support.th3dstudio.com/hc/downloads/unified-2-firmware/kingroon/kingroon-kp-3s-firmware-kingroon-v1-2-board/), but use this code. 
-
 ## Installation
 1. Follow the guidance here on installing and connecting: https://bubba.org/kp3s/3dTouch/
 2. To install, copy Robin35_nano.bin to in the root of an FAT32-formatted SD card and rename it Robin_nano.bin. 
@@ -24,6 +21,11 @@ setup, you will need to configure your paramters using repetier or
 Ocotprint. The changes are mentioned below.</b>
 
 * https://github.com/bdwilson/KP3S/tree/main/releases 
+
+## Building your own.
+Grab the configs from [here](https://github.com/bdwilson/KP3S/tree/main/releases) and then use the directions from [TH3D](https://support.th3dstudio.com/hc/downloads/unified-2-firmware/kingroon/kingroon-kp-3s-firmware-kingroon-v1-2-board/), but use this code. 
+
+## Changes needed if you do not have a Titan extruder with mount on the right side 
 
 ### KP3S w/ Stock Extruder, BL Touch mounted on left of extruder
 1. Mount BL Touch here: [male](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-male.stl?raw=true) - should be printed with supports & [female](https://github.com/bdwilson/KP3S/blob/main/files/BLtouch_Mount-left-female.stl?raw=true) (original files from here: https://www.thingiverse.com/thing:4609134)
