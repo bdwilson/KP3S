@@ -2,10 +2,10 @@
 
 <b>For general documentation/upgrades, please go here: https://bubba.org/kp3s</b>
 
-# Marlin v2.0.7 for Kingroon KP3S
-Thanks to @olavgm for his work on this: https://github.com/olavgm/marlin-kp3s 
+# Marlin v2.x for Kingroon KP3S
+Thanks to @olavgm for his work on 2.0.7 : https://github.com/olavgm/marlin-kp3s 
 
-I've only changed the `configuration.h` and `configuration_adv.h` files.
+I've  changed the `configuration.h` and `configuration_adv.h` files and provided those in the different version folders/Marlin directories.
 
 * Support for *BLTouch* has been added
 * Babystepping added (but babystepping automatically updates z offset, so make sure to save once you have your z offset the way you want it). To use this, start a print, go into Settings -> Tune -> Z probe offset. 
