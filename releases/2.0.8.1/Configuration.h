@@ -806,7 +806,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 850 } // for titan
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 910 } // for titan
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 185 }  // for old KP3s extruder
 
 /**
@@ -1057,7 +1057,7 @@
  *     O-- FRONT --+
  */
 
-#define NOZZLE_TO_PROBE_OFFSET { 30.0, -1.0, -2.605 }  // titan extruder mount on right
+#define NOZZLE_TO_PROBE_OFFSET { 29.0, -1.0, -2.41 }  // titan extruder mount on right
 //#define NOZZLE_TO_PROBE_OFFSET { -27, 0, 0 }  // old extruder, mount on left
 
 // Most probes should stay away from the edges of the bed, but
