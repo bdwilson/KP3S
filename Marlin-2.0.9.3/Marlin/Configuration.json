@@ -1,0 +1,307 @@
+[
+  {
+    "name": "STRING_CONFIG_H_AUTHOR",
+    "value": "\"(bdwilson)\""
+  },
+  {
+    "name": "SERIAL_PORT",
+    "value": "3"
+  },
+  {
+    "name": "SERIAL_PORT_2",
+    "disabled": false,
+    "value": "1"
+  },
+  {
+    "name": "MOTHERBOARD",
+    "value": "BOARD_MKS_ROBIN_NANO"
+  },
+  {
+    "name": "CUSTOM_MACHINE_NAME",
+    "disabled": false,
+    "value": "\"KP3S\""
+  },
+  {
+    "name": "TEMP_SENSOR_BED",
+    "value": "1"
+  },
+  {
+    "name": "PIDTEMPBED",
+    "disabled": false
+  },
+  {
+    "name": "DEFAULT_bedKp",
+    "value": "100.43"
+  },
+  {
+    "name": "DEFAULT_bedKi",
+    "value": "15.47"
+  },
+  {
+    "name": "DEFAULT_bedKd",
+    "value": "434.75"
+  },
+  {
+    "name": "EXTRUDE_MAXLENGTH",
+    "value": "1000"
+  },
+  {
+    "name": "X_MIN_ENDSTOP_INVERTING",
+    "value": "true"
+  },
+  {
+    "name": "Y_MIN_ENDSTOP_INVERTING",
+    "value": "true"
+  },
+  {
+    "name": "Z_MIN_ENDSTOP_INVERTING",
+    "value": "true"
+  },
+  {
+    "name": "Z_MIN_PROBE_ENDSTOP_INVERTING",
+    "value": "true"
+  },
+  {
+    "name": "X_DRIVER_TYPE",
+    "comment": "// brian A4988"
+  },
+  {
+    "name": "Y_DRIVER_TYPE",
+    "comment": "// brian"
+  },
+  {
+    "name": "Z_DRIVER_TYPE",
+    "comment": "// brian "
+  },
+  {
+    "name": "E0_DRIVER_TYPE",
+    "comment": "// brian"
+  },
+  {
+    "name": "ENDSTOP_INTERRUPTS_FEATURE",
+    "disabled": false
+  },
+  {
+    "name": "DEFAULT_AXIS_STEPS_PER_UNIT",
+    "value": "{ 160, 160, 800, 910 }",
+    "comment": "// for titan"
+  },
+  {
+    "name": "DEFAULT_MAX_FEEDRATE",
+    "value": "{ 200, 200, 4, 100 }"
+  },
+  {
+    "name": "DEFAULT_MAX_ACCELERATION",
+    "value": "{ 1000, 1000, 100, 1000 }"
+  },
+  {
+    "name": "DEFAULT_ACCELERATION",
+    "value": "1000"
+  },
+  {
+    "name": "DEFAULT_RETRACT_ACCELERATION",
+    "value": "1000"
+  },
+  {
+    "name": "DEFAULT_TRAVEL_ACCELERATION",
+    "value": "1000"
+  },
+  {
+    "name": "CLASSIC_JERK",
+    "disabled": false
+  },
+  {
+    "name": "DEFAULT_XJERK",
+    "value": "15.0"
+  },
+  {
+    "name": "DEFAULT_YJERK",
+    "value": "15.0"
+  },
+  {
+    "name": "DEFAULT_ZJERK",
+    "value": "0.4"
+  },
+  {
+    "name": "S_CURVE_ACCELERATION",
+    "disabled": false
+  },
+  {
+    "name": "BLTOUCH",
+    "disabled": false
+  },
+  {
+    "name": "NOZZLE_TO_PROBE_OFFSET",
+    "value": "{ 29.0, -1.0, -2.41 }",
+    "comment": "// titan extruder mount on right"
+  },
+  {
+    "name": "PROBING_MARGIN",
+    "value": "5"
+  },
+  {
+    "name": "Z_AFTER_PROBING",
+    "disabled": false
+  },
+  {
+    "name": "Z_PROBE_LOW_POINT",
+    "value": "-1"
+  },
+  {
+    "name": "Z_PROBE_OFFSET_RANGE_MIN",
+    "value": "-10"
+  },
+  {
+    "name": "Z_PROBE_OFFSET_RANGE_MAX",
+    "value": "10"
+  },
+  {
+    "name": "INVERT_Y_DIR",
+    "value": "false"
+  },
+  {
+    "name": "INVERT_Z_DIR",
+    "value": "true"
+  },
+  {
+    "name": "INVERT_E0_DIR",
+    "value": "true"
+  },
+  {
+    "name": "Z_HOMING_HEIGHT",
+    "disabled": false
+  },
+  {
+    "name": "Z_AFTER_HOMING",
+    "disabled": false
+  },
+  {
+    "name": "X_BED_SIZE",
+    "value": "180"
+  },
+  {
+    "name": "Y_BED_SIZE",
+    "value": "180"
+  },
+  {
+    "name": "Z_MAX_POS",
+    "value": "180"
+  },
+  {
+    "name": "AUTO_BED_LEVELING_BILINEAR",
+    "disabled": false
+  },
+  {
+    "name": "RESTORE_LEVELING_AFTER_G28",
+    "disabled": false
+  },
+  {
+    "name": "GRID_MAX_POINTS_X",
+    "number": 0,
+    "value": "5"
+  },
+  {
+    "name": "LEVEL_BED_CORNERS",
+    "disabled": false
+  },
+  {
+    "name": "LEVEL_CENTER_TOO",
+    "disabled": false
+  },
+  {
+    "name": "Z_SAFE_HOMING",
+    "disabled": false
+  },
+  {
+    "name": "Z_SAFE_HOMING_X_POINT",
+    "value": "((X_BED_SIZE) / 2)"
+  },
+  {
+    "name": "Z_SAFE_HOMING_Y_POINT",
+    "value": "((Y_BED_SIZE) / 2)"
+  },
+  {
+    "name": "HOMING_FEEDRATE_MM_M",
+    "value": "{ (30*60), (30*60), (4*60) }"
+  },
+  {
+    "name": "EEPROM_SETTINGS",
+    "disabled": false
+  },
+  {
+    "name": "EEPROM_AUTO_INIT",
+    "disabled": false
+  },
+  {
+    "name": "PREHEAT_1_TEMP_BED",
+    "value": "60"
+  },
+  {
+    "name": "PREHEAT_2_LABEL",
+    "value": "\"PTG\""
+  },
+  {
+    "name": "PREHEAT_2_TEMP_HOTEND",
+    "value": "235"
+  },
+  {
+    "name": "PREHEAT_2_TEMP_BED",
+    "value": "80"
+  },
+  {
+    "name": "NOZZLE_PARK_FEATURE",
+    "disabled": false
+  },
+  {
+    "name": "SDSUPPORT",
+    "disabled": false
+  },
+  {
+    "name": "SD_CHECK_AND_RETRY",
+    "disabled": false
+  },
+  {
+    "name": "INDIVIDUAL_AXIS_HOMING_MENU",
+    "disabled": false
+  },
+  {
+    "name": "MKS_ROBIN_TFT24",
+    "disabled": false
+  },
+  {
+    "name": "TFT_COLOR_UI",
+    "disabled": false
+  },
+  {
+    "name": "TFT_ROTATION",
+    "disabled": false,
+    "comment": "// brian try changing this"
+  },
+  {
+    "name": "TOUCH_SCREEN",
+    "disabled": false
+  },
+  {
+    "name": "TOUCH_CALIBRATION_X",
+    "disabled": false
+  },
+  {
+    "name": "TOUCH_CALIBRATION_Y",
+    "disabled": false,
+    "value": "-9203"
+  },
+  {
+    "name": "TOUCH_OFFSET_X",
+    "disabled": false,
+    "value": "-35"
+  },
+  {
+    "name": "TOUCH_OFFSET_Y",
+    "disabled": false,
+    "value": "264"
+  },
+  {
+    "name": "TOUCH_ORIENTATION",
+    "disabled": false
+  }
+]
