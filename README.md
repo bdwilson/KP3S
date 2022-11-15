@@ -11,6 +11,11 @@ I've  changed the `configuration.h` and `configuration_adv.h` files and provided
 * Babystepping added (but babystepping automatically updates z offset, so make sure to save once you have your z offset the way you want it). To use this, start a print, go into Settings -> Tune -> Z probe offset. 
 * You'll need to turn your LCD sideways using [this](https://www.thingiverse.com/thing:4578390) print, or just turn your head sideways. I've chosen to do this since I use Octoprint and also have a magnetic camera mounted to where this LCD screen would overhang.  
 
+A version <b>without</b> bltouch support has been added. I have not tested it,
+but feel free to report any issues. It has mesh bed leveling enabled. You can
+find it
+[here](https://github.com/bdwilson/KP3S/tree/main/releases/2.1.1/no-bltouch).
+
 ## Installation
 1. Follow the guidance here on installing and connecting: https://bubba.org/kp3s/3dTouch/
 2. To install, copy Robin_nano.bin to in the root of an FAT32-formatted SD card.
