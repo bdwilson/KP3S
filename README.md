@@ -1,3 +1,5 @@
+# warning: this repository has been deprecated as I no longer bave KP3S. 
+
 # Kingroon KP3S 
 
 <b>For general documentation/upgrades, please go here: https://bubba.org/kp3s</b>
