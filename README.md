@@ -1,4 +1,4 @@
-# warning: this repository has been deprecated as I no longer bave KP3S. 
+# warning: this repository has been deprecated as I no longer own a KP3S. 
 
 # Kingroon KP3S 
 
